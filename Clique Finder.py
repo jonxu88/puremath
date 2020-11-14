@@ -1,7 +1,8 @@
 #This was an attempt to write code to find all size 36 cliques in 
-#the {0,2} intersection graph of the 8 elements subsets of {1,2, ..., 36}
+#the {0,2} intersection graph of the 8 elements subsets of {0,1, ..., 35}
 #It doesn't work because the memory runs out, but one can alter the code so
-#that it works for smaller numbers
+#that it works for smaller numbers. We do it for size 3 cliques in the {0,2} intersection
+#graph of 5 element subsets {0,1, ..., 11}.
 
 import networkx as nx
 import itertools
